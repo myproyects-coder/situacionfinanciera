@@ -56,4 +56,11 @@ del día). BITA aparece como **una sola línea de salida de caja**; el detalle e
 - La Galicia Mastercard no se usa (0 consumos) hasta salir de mora.
 - Si la deuda total sube **2 cierres seguidos**: evaluar plan de pagos con Galicia
   (duda abierta: choca con la regla de 2025 de no refinanciar; decidir por CFTEA).
+- **Pagos a BITA cuando no hay efectivo (patear a T+1):**
+  1. Tarjeta directo al proveedor, pagando el resumen completo (0%, gana 30–45 días).
+  2. Cuotas sin interés si el proveedor las da.
+  3. Mínimo y financiar el saldo (~7% mensual + IVA).
+  4. **Último recurso:** sacar efectivo con tarjeta por Mercado Pago (costó 22% en ago-2026).
+  - Antes de sacar efectivo, ver si Flor tiene caja ese mes.
+  - Estos pagos van **fuera del tope de $920.000**: salen de la línea "aporte a BITA" del mes siguiente.
 - Aumento en Roxom: se pide en **diciembre 2026** — US$ 3.600, piso US$ 2.050.
