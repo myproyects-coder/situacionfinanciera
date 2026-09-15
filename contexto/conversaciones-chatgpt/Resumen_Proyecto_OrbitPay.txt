@@ -1,0 +1,104 @@
+Resumen de la conversación – Proyecto OrbitPay
+
+1. Exploración inicial
+
+-   Se analizó el concepto de una “cueva financiera” en Argentina y
+    luego una “cueva 100% cripto”, explicando su funcionamiento, riesgos
+    y contexto.
+-   Se aclaró que no es posible diseñar ni optimizar una estructura para
+    actividades financieras ilegales.
+-   La conversación se redirigió hacia el diseño de una alternativa
+    completamente legal y escalable.
+
+2. Concepto de OrbitPay
+
+Se definió OrbitPay como una infraestructura financiera SaaS para
+empresas que: - Automatiza pagos y cobros internacionales. - Gestiona
+múltiples monedas (ARS, USD, EUR y stablecoins mediante proveedores
+regulados). - Integra bancos, PSPs y rampas cripto. - No es custodio de
+fondos ni casa de cambio. - Basa su valor en automatización, APIs,
+routing inteligente y cumplimiento regulatorio.
+
+3. Modelo de negocio
+
+Fuentes de ingresos: - Fee por transacción. - Suscripción SaaS. -
+APIs. - White Label. - Servicios de auditoría y reporting.
+
+Clientes objetivo: - Empresas. - Startups. - Freelancers. -
+Importadores/exportadores. - Empresas tecnológicas.
+
+4. Arquitectura propuesta
+
+Capas principales: - Identidad y KYC/KYB. - Integraciones bancarias. -
+Integraciones con proveedores regulados de activos digitales. - Motor de
+routing inteligente. - Dashboard financiero. - API pública.
+
+5. Seguridad y compliance
+
+-   KYC/KYB.
+-   AML/KYT.
+-   Encriptación.
+-   Auditoría.
+-   Logs.
+-   SOC2 / ISO27001 como objetivos.
+
+6. Roadmap
+
+-   MVP.
+-   Growth.
+-   Escala. Con foco en automatización, APIs, dashboards y expansión
+    regional.
+
+7. Branding y web
+
+Se diseñó el concepto de una landing premium inspirada en Stripe,
+Revolut y Mercury con: - Hero. - Funcionalidades. - Seguridad. -
+Integraciones. - Pricing. - FAQ. - CTA.
+
+También se propuso un prompt completo para Lovable.
+
+8. Folmi
+
+Se preparó un prompt integral para migrar la web de Folmi a Lovable: -
+Estética Apple. - Tipografía Montserrat. - Paleta verde. - Landing
+completa. - Video promocional estilo Apple con medios de transporte,
+mapas y motion graphics.
+
+9. Benchmark competitivo
+
+Se analizaron competidores relevantes del proyecto financiero: -
+Airwallex. - EBANX. - Nium. - Wise Business. - Payoneer. - Belvo. -
+Minka. - Bitso Business.
+
+Para cada uno se revisó: - Mayor ventaja. - Razón por la que los
+clientes lo eligen. - Mercado objetivo. - Riesgo competitivo para
+OrbitPay.
+
+Conclusión: Airwallex aparece como el benchmark global más cercano al
+concepto de OrbitPay.
+
+10. Matriz comparativa
+
+Se elaboró una comparación incluyendo: - Mayor ventaja. - Motivo de
+elección. - Tamaño de mercado. - Nivel de amenaza. - Profundidad de
+datos financieros. - Calidad de APIs. - Capacidades analíticas.
+
+11. Propuestas diferenciales para OrbitPay
+
+Se propusieron diez líneas estratégicas: 1. Integrar infraestructura
+financiera y open finance. 2. Motor visual de automatización tipo
+“Zapier financiero”. 3. Data lake financiero con analytics. 4. Enfoque
+LATAM-first. 5. Integración transparente con rails de stablecoins
+mediante proveedores regulados. 6. APIs y experiencia de desarrollo de
+nivel Stripe. 7. Compliance integrado. 8. UX extremadamente simple para
+tesorería empresarial. 9. Ecosistema de partners e integraciones. 10.
+Posicionamiento basado en automatización, control y visibilidad
+financiera.
+
+Resultado
+
+La conversación evolucionó desde el análisis de mercados financieros
+informales hacia la definición de OrbitPay como una plataforma legal de
+infraestructura financiera para Latinoamérica, con foco en
+automatización, pagos internacionales, open finance, APIs y experiencia
+de usuario de nivel global.

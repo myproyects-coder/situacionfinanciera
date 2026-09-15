@@ -1,0 +1,147 @@
+<title>Los números para Maxi</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+<style>
+  :root {
+    --paper: #F6F5F0;
+    --ink: #1E2A30;
+    --ink-soft: #55656C;
+    --line: #D8DAD3;
+    --panel: #ECEEE7;
+    --green: #2E6A58;
+    --green-soft: #DDEBE4;
+    --brick: #B0502C;
+    --brick-soft: #F3E0D6;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper: #171D20; --ink: #ECEDE6; --ink-soft: #A9B3B6; --line: #33403F;
+      --panel: #212A2C; --green: #7FC2A8; --green-soft: #1F3A33; --brick: #E5906C; --brick-soft: #45291F;
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper: #171D20; --ink: #ECEDE6; --ink-soft: #A9B3B6; --line: #33403F;
+    --panel: #212A2C; --green: #7FC2A8; --green-soft: #1F3A33; --brick: #E5906C; --brick-soft: #45291F;
+  }
+  body { background: var(--paper); color: var(--ink); font-family: "Source Serif 4", Georgia, "Times New Roman", serif; font-size: 18px; line-height: 1.55; }
+  main { max-width: 42rem; margin: 0 auto; padding: 2.5rem 1.25rem 4rem; }
+  h1, h2, h3, .label, th, .fig b { font-family: "Bricolage Grotesque", "Helvetica Neue", Arial, sans-serif; text-wrap: balance; }
+  h1 { font-size: 2.3rem; line-height: 1.05; font-weight: 700; margin: 0 0 .5rem; letter-spacing: -.01em; }
+  .lede { color: var(--ink-soft); font-size: 1.05rem; margin: 0 0 2.5rem; }
+  h2 { font-size: 1.35rem; font-weight: 700; margin: 2.75rem 0 .75rem; padding-top: 1.25rem; border-top: 2px solid var(--ink); }
+  p { margin: 0 0 1rem; }
+  .label { font-size: .72rem; text-transform: uppercase; letter-spacing: .1em; color: var(--ink-soft); font-weight: 700; }
+  .figs { display: grid; grid-template-columns: repeat(auto-fit, minmax(9.5rem, 1fr)); gap: .75rem; margin: 1.25rem 0; }
+  .fig { background: var(--panel); padding: .9rem 1rem; border-radius: 4px; }
+  .fig b { display: block; font-size: 1.6rem; font-weight: 700; line-height: 1.1; font-variant-numeric: tabular-nums; }
+  .fig span { display: block; font-size: .85rem; color: var(--ink-soft); margin-top: .25rem; }
+  .fig.bad b { color: var(--brick); }
+  .fig.good b { color: var(--green); }
+  .tablewrap { overflow-x: auto; margin: 1.25rem 0; }
+  table { border-collapse: collapse; width: 100%; font-size: .95rem; font-variant-numeric: tabular-nums; }
+  th, td { text-align: left; padding: .55rem .6rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { font-size: .75rem; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-soft); font-weight: 700; }
+  td.num, th.num { text-align: right; white-space: nowrap; }
+  tr.hl td { background: var(--green-soft); }
+  tr.warn td { background: var(--brick-soft); }
+  .callout { border-left: 4px solid var(--green); background: var(--green-soft); padding: .9rem 1.1rem; margin: 1.5rem 0; border-radius: 0 4px 4px 0; }
+  .callout.brick { border-color: var(--brick); background: var(--brick-soft); }
+  .callout p:last-child { margin: 0; }
+  ul { padding-left: 1.2rem; margin: 0 0 1rem; }
+  li { margin-bottom: .5rem; }
+  .check { list-style: none; padding: 0; }
+  .check li { padding-left: 1.6rem; position: relative; }
+  .check li::before { content: ""; position: absolute; left: 0; top: .45em; width: .9rem; height: .9rem; border: 2px solid var(--ink-soft); border-radius: 2px; }
+  .foot { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--line); font-size: .85rem; color: var(--ink-soft); }
+</style>
+<main>
+  <p class="label">Caballito · septiembre 2026</p>
+  <h1>Los números para Maxi</h1>
+  <p class="lede">Dos departamentos, una casa más grande, y lo que el banco deja hacer. Todo en dólares, redondeado. Los precios están planos a propósito: si Caballito sube, mejor; si no sube, esto es lo que hay.</p>
+
+  <h2>Queremos dos cosas distintas</h2>
+  <p>Vos querés sumar metros y departamentos. Los dos queremos vivir en algo más grande que un 2 ambientes. Las dos cosas se pueden, pero <strong>no al mismo tiempo con deuda</strong>. Este texto muestra por qué, y en qué orden conviene.</p>
+
+  <h2>Cuánto deja un departamento alquilado</h2>
+  <p>Un 2 ambientes de 65 m² en Caballito se alquila hoy en unos $900.000. De eso hay que restar el mes que queda vacío entre inquilinos y los arreglos, el ABL y la gestión.</p>
+  <div class="figs">
+    <div class="fig"><b>US$ 600</b><span>alquiler por mes, bruto</span></div>
+    <div class="fig"><b>US$ 495</b><span>lo que queda limpio por mes</span></div>
+    <div class="fig good"><b>4,2 %</b><span>por año sobre US$ 140.000</span></div>
+  </div>
+  <p>Ese 4,2 % es el número contra el que se compara todo lo demás.</p>
+
+  <h2>Cuánto cuesta un préstamo</h2>
+  <p>Los créditos hipotecarios son en UVA: la cuota sube con la inflación, y encima de eso el banco cobra una tasa. Hoy es 11,5 % por año para la casa donde vas a vivir, y 15 % si es para alquilar. Ese porcentaje es <em>por encima</em> de la inflación, o sea, es tasa real.</p>
+  <p>Ejemplo con el tercer departamento, US$ 140.000, financiando el 75 %:</p>
+  <div class="figs">
+    <div class="fig"><b>US$ 1.328</b><span>cuota por mes, y sube con la inflación</span></div>
+    <div class="fig"><b>US$ 495</b><span>alquiler limpio que entra</span></div>
+    <div class="fig bad"><b>−US$ 833</b><span>ponemos de nuestro bolsillo cada mes</span></div>
+  </div>
+  <div class="callout brick">
+    <p><strong>Un departamento con hipoteca no genera plata: la consume.</strong> Rinde 4 % y la deuda cuesta 15 %. Son unos US$ 10.000 por año que salen de nuestros sueldos, por cada departamento financiado. Sólo se recupera si el precio del departamento sube más de 11 % por año en dólares, todos los años. Eso es una apuesta, no un plan.</p>
+  </div>
+
+  <h2>El límite lo pone el banco, no las ganas</h2>
+  <p>Para prestar plata, el banco exige que la cuota no pase del 25 % de lo que mostramos en recibos o facturas. Lo que cobramos en negro no cuenta. Esto es lo que hay que mostrar, entre los dos:</p>
+  <div class="tablewrap">
+    <table>
+      <tr><th>Para que el banco preste</th><th class="num">Cuota</th><th class="num">Hay que mostrar por mes</th></tr>
+      <tr><td>US$ 117.000 (casa, vendiendo el depto de Plaza Irlanda)</td><td class="num">US$ 1.156</td><td class="num">$ 6,9 M</td></tr>
+      <tr><td>US$ 178.000 (casa al 75 %, sin vender nada)</td><td class="num">US$ 1.764</td><td class="num">$ 10,6 M</td></tr>
+      <tr class="warn"><td>Dos hipotecas a la vez (un depto más la casa)</td><td class="num">US$ 3.092</td><td class="num">$ 18,6 M</td></tr>
+    </table>
+  </div>
+  <p>Agus hoy muestra $426.000 porque el sueldo grande lo cobra en cripto sin factura. Eso lo está arreglando: facturando, en 2027 muestra unos $4 M. <strong>Lo que vos podés mostrar en blanco es el dato que falta</strong>, y es el que decide si existe una hipoteca, dos, o ninguna.</p>
+
+  <h2>Tres caminos, comparados a 2034</h2>
+  <p>Simulados mes a mes desde marzo de 2028, cuando termina de pagarse el depto del Cid Campeador, con la pareja ahorrando US$ 3.000 por mes. La columna "patrimonio" es lo que tendríamos si vendiéramos todo y pagáramos las deudas.</p>
+  <div class="tablewrap">
+    <table>
+      <tr><th>Camino</th><th>Nos mudamos</th><th class="num">Deptos</th><th class="num">m²</th><th class="num">Deuda</th><th class="num">Patrimonio</th><th class="num">Hay que mostrar</th></tr>
+      <tr class="hl"><td><strong>Casa primero.</strong> Vender Plaza Irlanda, comprar una casa de 95 m² con préstamo chico, alquilar Cid Campeador, pagar la deuda rápido.</td><td>2028</td><td class="num">2</td><td class="num">160</td><td class="num">0</td><td class="num">US$ 526.000</td><td class="num">$ 6,9 M</td></tr>
+      <tr><td><strong>Metros primero</strong>, lo que proponés. Un tercer depto financiado en 2029, otro en 2030, la casa recién cuando se pueda.</td><td>2033</td><td class="num">5</td><td class="num">325</td><td class="num">US$ 313.000</td><td class="num">US$ 420.000</td><td class="num">$ 23,8 M</td></tr>
+      <tr><td><strong>Alquilar para vivir</strong> y comprar sólo para alquilar, financiando la mitad de cada depto.</td><td>hoy, alquilando</td><td class="num">4</td><td class="num">260</td><td class="num">US$ 139.000</td><td class="num">US$ 456.000</td><td class="num">$ 10,6 M</td></tr>
+    </table>
+  </div>
+  <div class="callout">
+    <p><strong>Metros primero da 165 m² más, pero US$ 106.000 menos de patrimonio, cinco años más en el 2 ambientes, y exige mostrar $24 M por mes.</strong> Los metros extra no son riqueza: son deuda con un ladrillo adelante. Y sin ese ingreso en blanco, el banco no presta y el camino directamente no existe.</p>
+  </div>
+
+  <h2>Lo que sale de los números</h2>
+  <ul>
+    <li><strong>Se puede tener tres departamentos, pero después de la casa y sin deuda encima.</strong> Con la hipoteca pagada en 2031, sobran US$ 3.500 por mes y un depto al contado sale cada cuatro años. Ahí sí rinde el 4,2 % completo.</li>
+    <li><strong>Vender uno no es perder.</strong> Vender Plaza Irlanda cuesta unos US$ 7.400 una vez. Mantenerlo con una hipoteca al lado cuesta US$ 10.000 por año. Se paga solo en ocho meses.</li>
+    <li><strong>Si igual preferís metros a casa</strong>, el camino que no se rompe es alquilar para vivir y comprar financiando la mitad, no el 75 %. Vivir en alquiler no resta metros: los metros donde vivimos rinden cero.</li>
+  </ul>
+
+  <h2>Lo que hace falta de cada uno</h2>
+  <p class="label">Vos</p>
+  <ul class="check">
+    <li>Cuánto podés mostrar en blanco por mes (recibo o facturas). Es el número que decide todo.</li>
+    <li>Cuándo escriturás Cid Campeador y cuánto cuesta esa escritura (calculamos unos US$ 5.250).</li>
+    <li>Si el depto se entrega con la escritura y se puede alquilar desde ese día.</li>
+    <li>A nombre de quién quedaría la casa si ponemos los dos: eso lo define un escribano, no nosotros.</li>
+  </ul>
+  <p class="label">Agus</p>
+  <ul class="check">
+    <li>Salir de la mora de la tarjeta este mes. Sin eso ningún banco la mira por dos años.</li>
+    <li>Facturar el sueldo de Roxom desde octubre, para que en 2027 cuente.</li>
+    <li>Tarjetas en cero en febrero y fondo de emergencia en julio de 2027.</li>
+  </ul>
+
+  <h2>El calendario si vamos por "casa primero"</h2>
+  <div class="tablewrap">
+    <table>
+      <tr><th>Cuándo</th><th>Qué pasa</th></tr>
+      <tr><td>jul 2027</td><td>Nos mudamos a un 3 ambientes alquilado y alquilamos Plaza Irlanda con contrato corto, de 9 a 12 meses. Nos cuesta unos US$ 700 por mes de diferencia.</td></tr>
+      <tr><td>oct–nov 2027</td><td>Pedimos precalificación en tres bancos por US$ 117.000.</td></tr>
+      <tr><td>feb 2028</td><td>Última cuota de Cid Campeador.</td></tr>
+      <tr><td>abr–jun 2028</td><td>Vendemos Plaza Irlanda, compramos la casa. Nos mudamos.</td></tr>
+      <tr><td>2028–2031</td><td>Cid Campeador alquilado; toda la plata que sobra va a la hipoteca.</td></tr>
+      <tr><td>fin 2031</td><td>Hipoteca pagada. Desde acá, un depto al contado cada cuatro años.</td></tr>
+    </table>
+  </div>
+
+  <p class="foot">Supuestos: dólar 1.500, precios de venta y alquiler planos en dólares, alquiler de 2 ambientes $900.000, casa de 95 m² a US$ 2.500 el m², gastos de compra 8 % y de venta 5 %, tasas UVA + 11,5 % y + 15 % (septiembre 2026). Todo lo que es de Maxi está dicho por Agus, no verificado con papeles. Si cambia un supuesto, cambia el cuadro: la planilla está en <em>escenarios-deptos.xlsx</em>.</p>
+</main>

@@ -1,0 +1,13 @@
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+
+# configuracion local de Claude (permisos de esta maquina)
+.claude/settings.local.json
+
+# texto crudo generado desde los PDF (se regenera con scripts/procesar_resumenes.py)
+datos/resumenes-texto/
+
+# archivos temporales de Excel
+~$*

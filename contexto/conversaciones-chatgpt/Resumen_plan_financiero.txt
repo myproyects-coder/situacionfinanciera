@@ -1,0 +1,111 @@
+Resumen de planificación financiera
+
+Objetivo
+
+Lograr estabilidad financiera y maximizar las probabilidades de acceder
+a un crédito hipotecario, evitando financiar el nivel de vida con deuda
+o ahorros.
+
+Análisis de ingresos
+
+Escenario actual considerado: - Ingreso mensual: USD 1.050 - Ingreso
+adicional: ARS 300.000 - Tipo de cambio de referencia: USD MEP ≈ ARS
+1.450
+
+Ingreso equivalente aproximado: - USD 1.257 mensuales
+
+Análisis de gastos históricos
+
+Se analizaron los gastos de marzo a diciembre.
+
+Conclusiones: - Los meses de mayo y junio fueron relativamente
+equilibrados. - Desde julio el gasto comenzó a superar ampliamente los
+ingresos. - Entre septiembre y diciembre el déficit mensual fue muy
+elevado. - El gasto promedio mensual fue aproximadamente ARS 3.645.000
+(≈ USD 2.513), casi el doble de los ingresos actuales.
+
+Conclusión principal: El déficit promedio ronda los USD 1.250 por mes,
+financiado mediante ahorro acumulado y consumo con tarjetas.
+
+Gasto máximo recomendado
+
+Con el nivel actual de ingresos:
+
+-   Máximo gasto mensual total:
+    -   USD 1.050
+    -   Equivalente aproximado: ARS 1.520.000
+
+Esto permite:
+
+-   Mantener equilibrio financiero.
+-   Evitar consumir ahorros.
+-   Ahorrar entre USD 200 y USD 250 por mes.
+-   Mejorar el perfil financiero de cara a un futuro crédito
+    hipotecario.
+
+Reducción necesaria
+
+El gasto actual promedio debería reducirse aproximadamente un 60%.
+
+Principales causas del desequilibrio
+
+-   Consumo elevado en tarjetas de crédito.
+-   Variabilidad importante entre meses.
+-   Falta de un límite mensual estricto de gasto.
+
+Mecanismos automáticos propuestos
+
+1. Límite de consumo en tarjetas (prioridad máxima)
+
+Configurar un tope mensual por tarjeta para no superar un gasto total
+cercano a ARS 1.500.000.
+
+2. Cuenta intermedia de gastos
+
+Cobrar los ingresos en una cuenta principal y transferir automáticamente
+únicamente el presupuesto mensual destinado a gastos.
+
+3. Compra automática de ahorro
+
+Programar compras automáticas de dólares o inversiones el día de cobro
+para reducir el dinero disponible para consumo.
+
+4. Uso de tarjetas prepagas por categoría
+
+Asignar presupuestos específicos para comida, supermercado, ocio y otros
+gastos.
+
+5. Bloqueo de determinados comercios
+
+Restringir gastos impulsivos mediante límites o bloqueos en determinados
+rubros cuando el banco lo permita.
+
+6. Seguimiento automático
+
+Automatizar el control de gastos mediante planillas o herramientas que
+envíen alertas cuando se alcance determinado porcentaje del presupuesto
+mensual.
+
+7. Restricción de consumo al final del mes
+
+Reducir el uso de tarjetas durante los últimos días del mes para evitar
+sobreconsumos.
+
+Prioridades recomendadas
+
+1.  Limitar el consumo mensual total a aproximadamente ARS 1.520.000.
+2.  Configurar límites de gasto en todas las tarjetas.
+3.  Automatizar el ahorro el mismo día del cobro.
+4.  Separar la cuenta de ingresos de la cuenta utilizada para gastos.
+5.  Realizar un seguimiento mensual del presupuesto para sostener el
+    objetivo de largo plazo.
+
+Conclusión
+
+El problema principal no es el nivel de ingresos sino el nivel de gasto
+estructural.
+
+Si el gasto mensual se mantiene dentro del límite recomendado y el
+ahorro se automatiza, será posible reconstruir capacidad de ahorro,
+reducir el riesgo financiero y fortalecer el perfil crediticio para un
+futuro crédito hipotecario.
