@@ -25,8 +25,21 @@ Procesa todo lo que haya en `frances/`, `galicia/` y `santander/`. Para archivos
 python3 scripts/procesar_resumenes.py ruta/al/resumen.pdf
 ```
 
-Salida: `datos/movimientos.csv` con fecha, banco, tarjeta, titular, comercio, cuota,
-pesos, usd, resumen y comprobante. El texto extraído queda en `datos/resumenes-texto/`.
+Salida:
+- `datos/movimientos.csv`: fecha, banco, tarjeta, titular, comercio, cuota, pesos, usd,
+  resumen y comprobante.
+- `datos/resumenes.csv`: un renglón por resumen con cierre, vencimiento, próximo cierre y
+  vencimiento, total ARS/USD, mínimo, pagos, intereses, punitorios, comisiones,
+  percepciones (neto débito − devolución) y consumos. **Es la tabla para seguir la deuda
+  mes a mes: ESTADO.md sale de acá, no se copia a mano.**
+
+El texto extraído de los PDF queda en `datos/resumenes-texto/`.
+
+Santander entrega desde septiembre 2026 "Último resumen" en **xlsx**: va en `santander/`
+renombrado como `Resumen de tarjeta de crédito VISA|AMEX-DD-MM-AAAA.xlsx` con la fecha de
+**vencimiento** (mismo criterio que los PDF). Si el mismo resumen está en PDF y xlsx, manda
+el PDF. Los comprobantes de pago no van sueltos en las carpetas de bancos: van en
+`<banco>/comprobantes/`.
 
 ## Qué hacer con la salida
 
@@ -53,12 +66,14 @@ al revés sin que nada parezca roto.
 
 ## Resúmenes sin totales declarados
 
-Algunos no traen desglose y por eso no se pueden validar: la Mastercard de Galicia (no
-separa por titular) y los meses sin consumos. El script los lista aparte. **No son un
+Algunos no traen desglose y por eso no se pueden validar: los meses sin consumos. La
+Mastercard de Galicia sí se valida contra `TOTAL CONSUMOS DEL MES` (no separa por titular:
+todo es de Agustina; sus consumos en el exterior traen el importe en la columna dólares). El script los lista aparte. **No son un
 error, pero tampoco están verificados** — decilo cuando uses esos datos.
 
 ## Después de procesar
 
-1. Actualizá `Plan financiero.xlsx` si cambiaron saldos, mínimos o vencimientos.
-2. Actualizá `ESTADO.md` con lo que haya cambiado.
-3. Anotá qué falta: resúmenes que no están, meses incompletos, cargos sin identificar.
+1. Leé `datos/resumenes.csv` para saldos, mínimos, vencimientos, intereses y punitorios.
+2. Actualizá `ESTADO.md` con esos números y `Plan financiero.xlsx` si cambiaron.
+3. Commiteá: la carpeta tiene git desde septiembre 2026.
+4. Anotá qué falta: resúmenes que no están, meses incompletos, cargos sin identificar.
