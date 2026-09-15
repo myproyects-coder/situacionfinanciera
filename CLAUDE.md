@@ -8,6 +8,7 @@ deuda, proyecto propio (postres congelados) y decisiones de ahorro/inversión.
 ```
 .
 ├── ESTADO.md                     Foto verificada. Se lee primero y se actualiza al cerrar.
+├── PRESUPUESTO.md                Lo que uso para vivir: ingresos, fijos, topes, calendario y orden de pago
 ├── PLAN-CARRERA.md               Fases, cadencia y puntos de decisión hasta 2034
 ├── Plan financiero.xlsx          Tarjetas, plan de pago, reembolsos, plan 12 meses y a 2034
 ├── frances/ galicia/ santander/  Resúmenes en PDF, tal como los descarga el banco
@@ -25,7 +26,7 @@ deuda, proyecto propio (postres congelados) y decisiones de ahorro/inversión.
 │   ├── conversaciones-chatgpt/   Resúmenes de conversaciones previas con ChatGPT (2025)
 │   ├── inversiones/              Marco de cartera y relevamientos del agente `mercados`
 │   ├── inmuebles/                Escenarios de deptos con Maxi, modelo y relevamiento de portales
-│   └── proyecto/                 Números del proyecto de postres congelados
+│   └── aportes-bita.md           Sólo la plata que sale de mi caja hacia BITA (sin lógica de negocio)
 ├── .claude/agents/mercados.md    Agente de información de mercados
 ├── .claude/skills/procesar-resumen/
 ├── .claude/skills/relevar-inmuebles/
@@ -77,20 +78,29 @@ sin relación con la fecha. Siempre verificar `CIERRE ACTUAL` adentro del archiv
 
 ## Ingresos (desde agosto 2026)
 
-- ORT: $426.000 ARS (~US$ 300, en pesos: se licúa entre paritarias)
+- ORT: $444.000 ARS (en pesos: se licúa entre paritarias). **Renuncia en marzo 2027** (cobra el verano).
 - **Roxom: 1.600 USDT** (84% del total, dolarizado)
 - **Total ≈ US$ 1.900/mes**
 
 Aumento de agosto: Roxom de US$ 1.000 a 1.600. El objetivo que ella fijó en 2025 es
 US$ 3.500/mes; el pico histórico fue US$ 1.964 en abril 2025.
 
-## Proyecto propio: postres congelados
+## BITA: separado de este espacio
 
-No confundir con OrbitPay, que es un proyecto distinto y anterior (el resumen sigue en
-`contexto/conversaciones-chatgpt/` como referencia). Buena parte de las transferencias
-por Mercado Pago que aparecen en los resúmenes corresponden a los postres, pero **desde
-el resumen no se puede distinguir un pago a proveedor de un gasto personal**: la tarjeta
-sólo muestra `MERPAGO*NOMBRE`. Hay que preguntarle a Agustina.
+BITA (BITA POSTRES S.A.) es otro proyecto y vive en `~/Desktop/bitadose`, con sus propios
+agentes. **Lo único que comparte con Situación financiera es que Agustina lo financia con su
+flujo de caja mensual (no tiene ahorros).**
+
+- Acá sólo va la salida de caja: `contexto/aportes-bita.md` (qué pagó ella, cuándo, cómo y si
+  es aporte o préstamo) y una línea en `PRESUPUESTO.md`.
+- **No va acá:** costeo, precios, fábricas, reparto entre socias ni decisiones del negocio.
+- No se sube nada al GitHub de BITA desde este espacio.
+- Desde el resumen de tarjeta no se distingue un pago a proveedor de BITA de un gasto
+  personal (sólo se ve `MERPAGO*NOMBRE`): hay que preguntarle a Agustina y cargarlo en
+  `aportes-bita.md`.
+
+Los análisis viejos de proyectos (gastos de BITA de ambas socias, OrbitPay) se archivaron en
+`~/Desktop/archivo/situacion-financiera-proyectos-viejos/`.
 
 ## Estado y objetivos
 
