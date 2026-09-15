@@ -11,6 +11,11 @@ deuda, proyecto propio (postres congelados) y decisiones de ahorro/inversión.
 ├── PLAN-CARRERA.md               Fases, cadencia y puntos de decisión hasta 2034
 ├── Plan financiero.xlsx          Tarjetas, plan de pago, reembolsos, plan 12 meses y a 2034
 ├── frances/ galicia/ santander/  Resúmenes en PDF, tal como los descarga el banco
+│                                 (Santander desde sep-2026 también en .xlsx: el parser todavía no los lee)
+├── ingresos/recibos-ort/         Recibos de sueldo de ORT (2025)
+├── carrera/                      Puesto de Roxom (Senior Accounting Specialist)
+│   ├── cv/                       CV en PDF y su fuente LaTeX (main.tex, RenderCV)
+│   └── actuaria-tasp/            Guía de TP y práctica de la última materia
 ├── scripts/procesar_resumenes.py Extractor con reconciliación obligatoria
 ├── scripts/modelo_inmuebles.py   Genera contexto/inmuebles/escenarios-deptos.xlsx
 ├── datos/movimientos.csv         Movimientos parseados y validados  <- trabajar acá
