@@ -49,6 +49,15 @@ del día). BITA aparece como **una sola línea de salida de caja**; el detalle e
 3. Tarjetas de consumo completas (BBVA y Galicia VISA).
 4. Si sobra: capital de la Galicia Mastercard.
 
+## Costos financieros (míos)
+
+Lo que pago por financiarme. Intereses y punitorios de tarjetas salen de `datos/resumenes.csv`;
+acá van los que no figuran como interés en un resumen.
+
+| mes | qué | ARS |
+|---|---|--:|
+| ago-2026 | Sacar efectivo con la BBVA por Mercado Pago para la constitución de BITA ($855.920 cargados por $700.000) | 155.920 |
+
 ## Reglas vigentes
 
 - Prioridad: **BITA antes que salir de la mora.** Se acepta que la deuda crezca y se cancela a
