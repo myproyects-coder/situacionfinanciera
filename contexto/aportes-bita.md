@@ -23,10 +23,11 @@ Fuente de los montos: `bitadose/datos/gastos.csv`, filas `pagado_por = Agustina`
 | 2026-06-24 | Arancel INPI | 38.192,00 | VEP | [PENDIENTE] | [contadora] |
 | 2026-06-26 | Arancel INPI | 38.192,00 | VEP | [PENDIENTE] | [contadora] |
 | 2026-07-09 | Carly, cuota 1 de 3 | 705.170 | [PENDIENTE] | [PENDIENTE] | [contadora] |
-| 2026-08-21 | Constitución de la sociedad | 700.000 | **efectivo, sin factura** | [PENDIENTE] | [contadora] |
+| 2026-08-12 | Sociedad, primer pago | 855.920 | BBVA vía Mercado Pago: MERPAGO*HERMANDOSPRODUCTO $534.950 + MERPAGO*LAUTAROTOMASLO $320.970 | flujo propio (tarjeta) | [contadora] |
+| 2026-08-21 | Constitución de la sociedad (según registro de BITA) | 700.000 | **efectivo, sin factura** | [PENDIENTE] | [contadora] |
 | 2026-08-27 | Mediación INPI (saldo) | 250.000 | [PENDIENTE] | [PENDIENTE] | [contadora] |
 | 2026-09-08 | Molde de stock | 156.544 | [PENDIENTE] | [PENDIENTE] | [contadora] |
-| | **Total pagado** | **4.746.511,44** | | | |
+| | **Total pagado** | **5.602.431,44** | | | |
 
 ## Impacto en mi caja, por mes
 
@@ -36,13 +37,16 @@ Fuente de los montos: `bitadose/datos/gastos.csv`, filas `pagado_por = Agustina`
 | may-2026 | 1.988.000,00 |
 | jun-2026 | 126.797,44 |
 | jul-2026 | 705.170,00 |
-| ago-2026 | 950.000,00 |
+| ago-2026 | 1.805.920,00 |
 | sep-2026 (al 14/09) | 156.544,00 |
 
 ## A conciliar con BITA
 
-- **$855.920 pagados con mi BBVA en agosto** (dato de `ESTADO.md`): no figuran en el registro
-  de BITA. Hay que ver qué fueron y cargarlos allá.
+- **$855.920 del BBVA (12/08) = primer pago de la sociedad** (confirmado por Agustina el 14/09;
+  los dos cargos suman exacto). No figuran en el registro de BITA: falta cargarlos allá.
+- **¿El pago en efectivo de $700.000 del 21/08 es otro pago o el mismo?** El registro de BITA
+  tiene "Constitución $700.000 efectivo" y no tiene los $855.920. Si son el mismo pago, el total
+  de arriba está contado dos veces ($700.000 de más).
 - **Carly cuota 2 ($708.000, 09/08):** figuraba como comprometida a mi nombre; no aparece
   pagada en ningún lado.
 
